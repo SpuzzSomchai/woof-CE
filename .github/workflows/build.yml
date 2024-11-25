@@ -113,7 +113,7 @@ jobs:
         echo "::set-output name=artifact_name::$name"
       shell: bash
     - name: Get cached kernel-kit output
-      uses: dawidd6/action-download-artifact@v2
+      uses: dawidd6/action-download-artifact@v6
       with:
         repo: puppylinux-woof-CE/woof-CE
         branch: testing
